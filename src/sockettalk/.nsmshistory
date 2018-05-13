@@ -1,0 +1,10 @@
+exit
+ls
+exit
+cd ..
+ls
+cd sockettalk
+./client localhost 8000
+./client localhost 8001
+./client localhost 8000
+exit

@@ -1,0 +1,14 @@
+final test run
+ls
+ls -all
+../pipes/pipes $(echo hi)
+$(echo ls)
+make re
+time for cutting
+../../test/test
+exit
+ls
+cat
+exit
+ls
+exit
