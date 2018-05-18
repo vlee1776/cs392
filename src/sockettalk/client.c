@@ -72,7 +72,7 @@ int main(int argc, char* argv[]){
 	bzero ((char*)buffer, 256);
 	printf("Please enter UserName:\n");
 	
-	//getline is unlimited buffer
+	//getline is unlimited buffer	
 	int status= getline(&line, &size, stdin);
 	int len= my_strlen(line)-1;
 	line[len]='\0';
